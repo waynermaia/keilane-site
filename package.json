@@ -3,11 +3,17 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
+    "start": "nuxt",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@nuxt/image-edge": "^1.0.0-27919678.2f5b64b",
+    "@nuxtjs/tailwindcss": "^6.4.0",
     "nuxt": "^3.2.0"
+  },
+  "dependencies": {
+    "firebase": "^10.1.0"
   }
 }
